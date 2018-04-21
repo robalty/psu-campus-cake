@@ -1,5 +1,5 @@
 window.onload = function(){
-    menuNav('one');
+    menuNav('start');
     if (!Notification) {
         alert('Notifications aren\'t supported by this browser!.');
         return;
