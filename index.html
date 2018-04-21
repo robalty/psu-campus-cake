@@ -4,9 +4,6 @@
     <meta charset="utf-8">
 
     <title>have your cake</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
-
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -24,37 +21,30 @@
 
     <!-- Here is our page's main content -->
     <main>      
-        <form>
             <div id="start">
                 <p>How was class?</p>
-                <button name="Fine" onclick="menuNav('fine')">Fine</button>
-                <button name="Not_great" onclick="menuNav('start','Not Great')">Not Great</button>
+                <button onclick="menuNav('fine')">Fine</button>
+                <button onclick="menuNav('not great')">Not Great</button>
             </div>
-            <div id="Fine">Great</div>
+            <div id="fine">Great</div>
             
-            <div id="Not Great">
+            <div id="not great">
                     <p>Sorry to hear that, What was the problem?</p>
-                    <button name="understand" onclick="">I didn't really understand the lecture.</button>
+                    <button onclick="menuNav('')">I didn't really understand the lecture.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')">I feel like the class is insensitive towards certain idetities.</button>
+                    <button onclick="menuNav('')">I feel like the class is insensitive towards certain identities.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')">I’m having trouble reading the board and/or paying attention.</button>
+                    <button onclick="menuNav('')">I’m having trouble reading the board and/or paying attention.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')">problems outside of class.</button>
+                    <button onclick="menuNav('')">problems outside of class.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')">I’m going through a crisis.</button>
+                    <button onclick="menuNav('')">I’m going through a crisis.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')">Another person in the class is making me uncomfortable.</button>
+                    <button onclick="menuNav('')">Another person in the class is making me uncomfortable.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')">My issue isn’t listed here.</button>
+                    <button onclick="menuNav('')">My issue isn’t listed here.</button>
                     <p></p>
-                    <button name="identites" onclick="menuNav('')"></button>
-                    <p></p>
-
             </div>
-            
-            
-        </form>
         
     </main>
 
