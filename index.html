@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <title>have your cake</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -21,11 +22,11 @@
 
     <!-- Here is our page's main content -->
     <main>
-            <div id="start">
+            <div id="start" text-align: center>
                 <p>How was class?</p>
-                <button onclick="menuNav('fine')">Fine</button>
-                <button onclick="menuNav('not great')">Not Great</button>
-                <button onclick="menuNav('not great')">Awful</button>
+                <button onclick="menuNav('fine')" class="btn btn-success">Fine</button>
+                <button onclick="menuNav('not great')" class="btn btn-warning">Not Great</button>
+                <button onclick="menuNav('not great')" class="btn btn-danger">Awful</button>
             </div>
 
             <div id="fine">
@@ -120,11 +121,7 @@
     <footer>
 
     </footer>
-    <p>
-
-
-
-    </p>
+    <p>/n/n/n/n </p>
     <script src="scripts/main.js"></script>
     <button onclick="notifyMe()">Notify me!</button>
   </body>
